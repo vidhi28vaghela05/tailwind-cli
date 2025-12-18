@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up | Airway Reservation</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-white text-gray-600 body-font">
+
+<!-- ================= HEADER ================= -->
+<header class="body-font border-b">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+
+    <!-- Logo -->
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+       <img src="logo.png" alt="logo" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-15 h-15 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+       <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+    </img>
+          <span class="ml-3 text-xl">airway reservation</span>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="md:mr-auto md:ml-4 md:pl-4 md:border-l md:border-gray-300
+                flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-indigo-500" href="index.html">Home</a>
+      <a class="mr-5 hover:text-indigo-500" href="fligths.html">Flights</a>
+      <a class="mr-5 hover:text-indigo-500" href="plans.html">Plans</a>
+      <a class="mr-5 hover:text-indigo-500" href="about.html">About</a>
+      <a class="mr-5 hover:text-indigo-500" href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Login Button -->
+    <a href="login.html"
+       class="inline-flex items-center bg-gray-100 border-0 py-1 px-3
+              hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+      Login
+    </a>
+
+  </div>
+</header>
+
+<!-- ================= SIGN UP SECTION ================= -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+
+    <!-- Left Content -->
+    <div class="lg:w-3/5 md:w-1/2 md:pr-16">
+      <h1 class="title-font font-medium text-3xl text-gray-900">
+        Create Your Airway Reservation Account
+      </h1>
+      <p class="leading-relaxed mt-4">
+        Sign up to book flights faster, manage your bookings,
+        receive exclusive offers, and enjoy a smooth travel experience.
+      </p>
+    </div>
+
+    <!-- Sign Up Form -->
+    <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8
+                flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+
+      <h2 class="text-gray-900 text-lg font-medium title-font mb-5">
+        Sign Up
+      </h2>
+
+      <form>
+        <!-- Full Name -->
+        <div class="relative mb-4">
+          <label class="leading-7 text-sm text-gray-600">
+            Full Name
+          </label>
+          <input type="text" placeholder="Enter your full name"
+                 class="w-full bg-white rounded border border-gray-300
+                        focus:border-indigo-500 focus:ring-2
+                        focus:ring-indigo-200 text-base outline-none
+                        text-gray-700 py-2 px-3">
+        </div>
+
+        <!-- Email -->
+        <div class="relative mb-4">
+          <label class="leading-7 text-sm text-gray-600">
+            Email Address
+          </label>
+          <input type="email" placeholder="Enter your email"
+                 class="w-full bg-white rounded border border-gray-300
+                        focus:border-indigo-500 focus:ring-2
+                        focus:ring-indigo-200 text-base outline-none
+                        text-gray-700 py-2 px-3">
+        </div>
+
+        <!-- Password -->
+        <div class="relative mb-4">
+          <label class="leading-7 text-sm text-gray-600">
+            Password
+          </label>
+          <input type="password" placeholder="Create a password"
+                 class="w-full bg-white rounded border border-gray-300
+                        focus:border-indigo-500 focus:ring-2
+                        focus:ring-indigo-200 text-base outline-none
+                        text-gray-700 py-2 px-3">
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="relative mb-4">
+          <label class="leading-7 text-sm text-gray-600">
+            Confirm Password
+          </label>
+          <input type="password" placeholder="Confirm your password"
+                 class="w-full bg-white rounded border border-gray-300
+                        focus:border-indigo-500 focus:ring-2
+                        focus:ring-indigo-200 text-base outline-none
+                        text-gray-700 py-2 px-3">
+        </div>
+
+        <!-- Sign Up Button -->
+        <button type="submit"
+                class="w-full text-white bg-indigo-500 border-0
+                       py-2 px-8 focus:outline-none hover:bg-indigo-600
+                       rounded text-lg">
+          Create Account
+        </button>
+      </form>
+
+      <!-- Extra Links -->
+      <p class="text-xs text-gray-500 mt-4 text-center">
+        Already have an account?
+        <a href="login.html" class="text-indigo-500 hover:underline">
+          Login here
+        </a>
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-gray-100 text-gray-600">
+  <div class="container mx-auto py-6 px-5 text-center">
+    <p class="text-sm">
+      © 2025 Airway Reservation. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
